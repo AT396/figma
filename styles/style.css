@@ -1,0 +1,763 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Graphik LC TT", sans-serif;
+}
+
+.navbar {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: #0d0d0d;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons button {
+  margin-left: 15px;
+  padding: 10px 20px;
+}
+
+.toggle-checkbox {
+  display: none;
+}
+
+.toggle-button {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.toggle-button span {
+  background-color: #c14f4f;
+  height: 3px;
+  width: 100%;
+  border-radius: 2px;
+}
+
+.main_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 7%;
+}
+
+.main_container_title {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main_container_title h1 {
+  font-size: 50px;
+}
+
+.main_container_title p {
+  font-size: 20px;
+}
+
+.companies {
+  background-color: #ff9c7d;
+}
+
+.companies_container {
+  display: flex;
+  padding: 100px 0;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+
+.companies_container h1 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 120%;
+  text-align: center;
+  color: #000;
+  max-width: 800px;
+}
+
+.companies_container img {
+  width: 100%;
+}
+
+.control {
+  margin-top: 100px;
+}
+
+.control_container {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.control_container_title {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 4%;
+}
+
+.control_container h1 {
+  font-size: 50px;
+}
+
+.control_container p {
+  font-size: 20px;
+}
+
+.time {
+  margin-top: 100px;
+}
+
+.time_container {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.time_container_title {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: right;
+  padding: 15%;
+}
+
+.time_container_title h1 {
+  font-size: 50px;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 120%;
+  text-align: center;
+  color: #000;
+}
+
+.time_container_title p {
+  font-size: 20px;
+}
+
+.work {
+  margin-top: 100px;
+}
+
+.work_container {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.work_container_title {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 5%;
+}
+
+.work_container h1 {
+  font-size: 50px;
+}
+
+.work_container p {
+  font-size: 20px;
+}
+
+.hello {
+  margin-top: 100px;
+}
+
+.hello_container {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hello_container_title {
+  max-width: 658px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.hello_container_title h1 {
+  font-size: 50px;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 120%;
+  text-align: center;
+  color: #000;
+}
+
+.hello_container_title p {
+  font-size: 20px;
+}
+
+.cames {
+  background-color: #fcf7e6;
+  padding: 40px;
+  text-align: center;
+  margin-top: 200px;
+}
+
+
+.rtx_container {
+  justify-content: center;
+  display: flex;
+  padding: 40px 40px;
+  right: auto;
+}
+
+.msi {
+  background-color: #c9e8f2;
+  max-width: 100%;
+
+}
+
+.cam {
+  background-color: #dabc98;
+}
+
+.cames_container img {
+  padding: 60px;
+}
+
+.victus_container h1,
+p {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.victus_container_title {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.victus {
+  padding: 155px;
+}
+
+
+.buttons_container_title1 {
+  padding: 10px 25px;
+  background-color: white;
+  
+}
+
+.buttons_container_title1 :hover {
+  background-color: #ff6336;
+  color: white;
+  border: 1px solid #ff6336;
+}
+
+
+.home_container {
+  text-align: center; 
+  padding: 20px; 
+  background-color: #FF9C7D;
+  padding: 16%;
+}
+
+h1 {
+  margin-bottom: 35px; 
+  font-size: 36px; 
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 35px; 
+  font-size: 18px; 
+}
+
+button {
+  padding: 10px 20px; 
+  font-size: 16px;
+  background-color:#ffffff; 
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; 
+}
+
+.btn55{
+  background-color: #000;
+  color: #ffffff;
+}
+
+button:hover {
+  background-color: #FF6336; 
+}
+.hoco_container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #f4f1f1;
+}
+
+.victus_container_title {
+  flex-direction: column;
+  display: flex;
+}
+
+
+
+.btn,
+.btn1 {
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+ 
+
+.container {
+  margin: 0 auto;
+  max-width: 2000px;
+
+}
+
+.rtx_container {
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.ivan{
+   align-items: end;
+  margin-left: 76%;
+  position: relative;
+  top: -365px; 
+
+
+}
+
+.msi_container p {
+  font-size: xx-large;
+  padding-top: 200px;
+  max-width:  1000px;
+  padding-left: 3%;
+}   
+.msi_container h1{
+  padding-left: 3%;
+  padding-top: 3%;
+}
+.msi_container h5{
+  padding-left: 3%;
+}
+
+
+/* Base styles (default for large screens) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Graphik LC TT", sans-serif;
+}
+
+/* Default Styles - Large screens */
+.navbar {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: #0d0d0d;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons button {
+  margin-left: 15px;
+  padding: 10px 20px;
+}
+
+.toggle-checkbox {
+  display: none;
+}
+
+.toggle-button {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.toggle-button span {
+  background-color: #c14f4f;
+  height: 3px;
+  width: 100%;
+  border-radius: 2px;
+}
+
+.main_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 7%;
+}
+
+.main_container_title {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main_container_title h1 {
+  font-size: 50px;
+}
+
+.main_container_title p {
+  font-size: 20px;
+}
+
+
+@media (max-width: 1440px) {
+  .navbar {
+    padding: 10px;
+  }
+  .main_container{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .main_container_title h1 {
+    font-size: 45px;
+  }
+
+  .main_container_title p {
+    font-size: 18px;
+  }
+  .cames_container img, 
+  .container img, 
+  .hoco_container img {
+    width: 70%; /* Изображение занимает 70% ширины контейнера */
+    height: auto;
+  } 
+  .menu li {
+    margin: 0 10px;
+  }
+  .companies_container, .control_container, .time_container, 
+  .work_container, .hello_container, .victus_container_title {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .companies_container img, .control_container img, .time_container img,
+  .work_container img, .hello_container img, .victus_container_title img {
+    max-width: 70%;
+    height: auto;
+  }
+
+  .main_container_title h1 {
+    font-size: 36px;
+  }
+
+  .main_container_title p {
+    font-size: 20px;
+  }
+  .msi_container p{
+    font-size: 30px;  
+    padding-top: 100px;  
+  }
+  .ivan{
+    margin-left: auto;
+    margin-top: 300px;
+    margin-left: -40px;
+    transform: scale(0.7); 
+    margin-bottom: -350px;
+    margin-bottom: -400px;
+  }
+}
+
+/* Screen 768px */
+@media (max-width: 768px) {
+  .navbar {
+    justify-content: space-between;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+
+  .toggle-checkbox:checked + .menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .menu li {
+    margin: 20px 0;
+  }
+
+  .buttons {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .buttons button {
+    margin: 10px 0;
+  }
+
+  .main_container {
+    flex-direction: column;
+  }
+
+  .main_container_title h1 {
+    font-size: 40px;
+  }
+
+  .main_container_title p {
+    font-size: 18px;
+  }
+  .companies_container, .control_container, .time_container, 
+  .work_container, .hello_container, .victus_container_title {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .companies_container img, .control_container img, .time_container img,
+  .work_container img, .hello_container img, .victus_container_title img {
+    max-width: 80%;
+    height: auto;
+  }
+  .cames_container img, 
+  .container img, 
+  .hoco_container img {
+    width: 80%; /* Изображение занимает 80% ширины контейнера */
+    height: auto;
+  }
+  .main_container_title h1 {
+    font-size: 32px;
+  }
+
+  .main_container_title p {
+    font-size: 18px;
+  }
+  .msi_container p{
+    font-size: 30px;
+    padding-top: 100px;
+  }
+  .ivan{
+    margin-left: auto;
+    margin-top: 300px;
+    margin-left: -40px;
+    transform: scale(0.7); 
+    margin-bottom: -350px;
+    margin-bottom: -400px;
+  }
+}
+
+
+/* Screen 390px */
+@media (max-width: 391px) {
+  .navbar {
+    padding: 5px;
+  }
+
+  .logo img {
+    width: 80px;
+  }
+
+  .toggle-button {
+    width: 25px;
+    height: 20px;
+  }
+
+  .toggle-button span {
+    height: 2px;
+  }
+  .cames_container img, 
+  .container img, 
+  .hoco_container img {
+    width: 100%; /* Изображение занимает всю ширину контейнера */
+    height: auto; /* Пропорциональная высота */
+  }
+  .main_container {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .main_container_title h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .main_container_title p {
+    font-size: 16px;
+  }
+  
+  .buttons button {
+    padding: 8px 15px;
+  }
+  .companies_container, .control_container, .time_container, 
+  .work_container, .hello_container, .victus_container_title {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .msi_container img,.companies_container img, .control_container img, .time_container img,
+  .work_container img, .hello_container img, .victus_container_title img {
+    max-width: 90%;
+    height: auto;
+    
+    object-fit: contain; /* Сохраняем пропорции внутри границ */
+    transition: transform 0.3s ease; /* Плавное увеличение */
+  }
+  .companies_container h1{
+    font-size: 15px;
+  }
+  .companies_container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .cames_container p, 
+  .container p, 
+  .hoco_container p {
+    font-size: 10px; /* Размер текста уменьшен */
+    line-height: 1.4; /* Уменьшена высота строки для лучшей читабельности */
+  }
+  .control_container h1{
+    font-size: 30px;
+    margin-top: -35px;
+
+  }
+  .time_container_title h1{
+    font-size: 30px;
+    margin-bottom: -11px;
+  }
+  .work_container_title{
+    margin-top: -100px;
+  }
+  .work_container_title h1{
+    font-size: 30px;
+  }
+  .hello_container_title h1{
+    font-size: 30px;
+    margin-top: 70px;
+  }
+  .cames{
+    margin-top: 10px;
+  }
+  .cames_container_title h1{
+    font-size: 20px;
+  }
+  .cames_container img{
+    transform: scale(1.2); 
+  }
+  .rtx_container img{
+    transform: scale(1.2); 
+  }
+  .ivan{
+    margin-left: auto;
+    margin-top: 300px;
+    margin-left: -40px;
+    transform: scale(0.7); 
+    margin-bottom: -350px;
+    
+  }
+  .msi_container p{
+    padding-top: 100px;
+  }
+  .victus_container h1{
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    margin-top: -100px;
+  }
+  .victus_container p{
+    white-space: nowrap;
+  }
+  .victus_container_title img{
+    transform: scale(5.5);
+    padding-top: 15px; 
+  }
+  .buttons_container_title1{
+    padding-top: 130px;
+    margin-bottom: -100px;
+  } 
+}
+
